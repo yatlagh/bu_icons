@@ -1,3 +1,6 @@
+   var body = document.getElementsByTagName('body');
+    document.body.innerHTML +='<a href="https://github.com/yatlagh/bu_icons/blob/master/download/Archive.zip"> <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download Icons</button></a>';
+
 if (!('boxShadow' in document.body.style)) {
     document.body.setAttribute('class', 'noBoxShadow');
 }
