@@ -42,17 +42,24 @@ input, fieldset {
   cursor: pointer;
   font-size: 20px;
 }
+
+.unit.size1of2 { color: #ED423F; font-size: 1.4em; }
 /* Darker background on mouse-over */
 .btn:hover {
   background-color: RoyalBlue;
 }
 
-.mhmm.mvm, .mvm.mtn.fgc1, .mhl.clearfix.mbl, .bgc1.clearfix { display: none; }
+.mhmm.mvm, .mvm.mtn.fgc1, .mhl.clearfix.mbl, .bgc1.clearfix, .unitRight.size1of2.talign-right { display: none; }
 input {
   color: inherit;
   line-height: 1.5;
   height: 1.5em;
   padding: .25em 0;
+}
+
+span[class^="icon-"] {
+  color: #1e5296;
+  font-size: 2em;
 }
 input:focus {
   outline: none;
