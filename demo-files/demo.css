@@ -34,6 +34,19 @@ input, fieldset {
   padding: 0;
   border: 0;
 }
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
 .mhmm.mvm, .mvm.mtn.fgc1, .mhl.clearfix.mbl, .bgc1.clearfix { display: none; }
 input {
   color: inherit;
