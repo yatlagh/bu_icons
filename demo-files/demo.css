@@ -43,6 +43,19 @@ input, fieldset {
   font-size: 20px;
 }
 
+.clearfix.mhl.ptl {   margin: auto;
+  width: 80%;
+  padding: 10px; }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
 .unit.size1of2 { color: #ED423F; font-size: 1.4em; }
 /* Darker background on mouse-over */
 .btn:hover {
